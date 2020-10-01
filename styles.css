@@ -155,3 +155,29 @@ canvas {
     margin-right: 36%;
     margin-top: 15%;
 }
+
+.fullCarousel {
+    position: relative fixed;
+    z-index: 1;
+}
+
+.form {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proText {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+}
+
+.about {
+    background-color: black;
+    position: relative;
+    display: block;
+    top: 50%;
+}
