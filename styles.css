@@ -292,7 +292,7 @@ canvas {
   justify-content: left;
   width: 100%;
   height: 100%;
-  
+  padding-left: 5%;
 }
 
 .skillsText {
@@ -316,6 +316,10 @@ canvas {
   padding-left: 5%;
   padding: 5%;
   /* padding-top: 1rem; */
+}
+
+.skills1 {
+  padding-left: 10%;
 }
 
 .github1 {
