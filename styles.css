@@ -341,6 +341,15 @@ canvas {
   /* margin-left: 40%; */
 }
 
+.codepen1 {
+  font-family: 'Courier Prime', monospace;
+  color:  #2C4744;
+  font-size: x-large;
+  background: black;
+  text-decoration: none;
+  text-align: center;
+}
+
 .pikAndForm {
    padding: 3rem;
    display: inline-flex;
@@ -392,6 +401,12 @@ canvas {
 }
 
 .github2:hover {
+  font-family: 'Courier Prime', monospace;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.codepen1:hover {
   font-family: 'Courier Prime', monospace;
   color: whitesmoke;
   text-decoration: none;
