@@ -131,10 +131,17 @@ canvas {
     /* font-family: 'Roboto Mono', monospace; */
     font-family: 'VT323', monospace;
     text-align: center;
-    font-size: 8rem;
+    /* font-size: 8rem; */
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    /* min-width: 90%; */
+    /* width: 90%;
+    height: 40%; */
+    /* flex-grow: 20; */
+    /* font-size: 2em; */
 }
 
 .work {
@@ -144,14 +151,19 @@ canvas {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 3%;
+    /* font-size: 50px; */
+    /* font-size: 70px; */
 }
 
 .nameContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15%;
+    margin-right: 30%;
+    margin-left: 30%;
+    /* margin: 40%; */
+    /* padding-top: 40%; */
 }
 
 .nameColumn {
@@ -215,10 +227,13 @@ canvas {
   /* background-color: black; */
   /* font: whitesmoke; */
   z-index: 3;
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
   background-color: #2C4744;
-  padding-left: 4rem;
-  padding-top: 2rem;
+  padding-bottom: 6%;
+  height: 5%;
+  width: 100%;
+  /* padding-left: 4rem;
+  padding-top: 2rem; */
   /* display: flex;
   justify-content: center; */
 }
@@ -268,10 +283,12 @@ canvas {
   flex-direction: row;
   justify-content: space-evenly; */
   /* padding-top: 15rem; */
-  padding: 10rem;
+  padding: 5%;
   display: grid;
   grid-gap: 5px;
   justify-content: left;
+  width: 100%;
+  height: 100%;
 }
 
 .skillsText {
@@ -280,7 +297,9 @@ canvas {
   font-size: xx-large;
   background-color:  #2C4744;
   justify-content: left;
-  padding-left: 11rem;
+  /* padding-left: 10%; */
+  padding: 5%;
+  padding-left: 5%;
   /* padding-bottom: 1rem; */
 }
 
@@ -288,23 +307,30 @@ canvas {
   font-family: 'Press Start 2P', cursive;
   display: flex;
   justify-content: left;
-  padding-bottom: 5rem;
+  padding-bottom: 5%;
   font-size: xx-large;
-  padding-left: 11rem;
+  padding-left: 5%;
+  padding: 5%;
   /* padding-top: 1rem; */
 }
 
 .github1 {
   font-family: 'Courier Prime', monospace;
-  color: black;
+  color:  #2C4744;
   font-size: x-large;
   background: transparent;
+  text-decoration: none;
+  /* pointer-events: none; */
 }
 
 .github2 {
   font-family: 'Courier Prime', monospace;
-  color: black;
+  /* color: black; */
   font-size: x-large;
+  color:  #2C4744;
+  text-decoration: none;
+  /* pointer-events: none; */
+  background: transparent;
 }
 
 .pikAndForm {
@@ -321,4 +347,44 @@ canvas {
 #yourMessage {
   color: whitesmoke;
   padding-top: 1rem;
+}
+
+/* .github2:hover { color: do-not-change; } */
+
+/* .github1 :hover {
+  text-decoration: none;
+  
+ } */
+
+/* .skillz {
+  width: 100%;
+} */
+
+/* .github1 {
+  font-family: 'Courier Prime', monospace;
+  color: white;
+  text-decoration: none;
+  font-size: 20%;
+  background-color: rgba(20, 19, 19, 0.6);
+  border-radius: 25px;
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 500px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+} */
+.github1:hover {
+  font-family: 'Courier Prime', monospace;
+  color:whitesmoke;
+  text-decoration: none;
+}
+
+.github2:hover {
+  font-family: 'Courier Prime', monospace;
+  color: whitesmoke;
+  text-decoration: none;
 }
